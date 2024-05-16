@@ -1,4 +1,4 @@
-package practice02;
+package b239.practice02;
 
 import com.github.javafaker.Faker;
 import dev.failsafe.internal.util.Assert;

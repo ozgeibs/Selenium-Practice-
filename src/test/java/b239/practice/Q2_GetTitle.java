@@ -1,4 +1,4 @@
-package practice;
+package b239.practice;
 
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
