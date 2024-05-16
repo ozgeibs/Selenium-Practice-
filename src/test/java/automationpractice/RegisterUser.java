@@ -21,10 +21,11 @@ public class RegisterUser {
 
 
     WebDriver driver;
+
     @BeforeEach
     void setUp() {
         //    1.Launch browser
-        driver=new ChromeDriver();
+        driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
     }
@@ -157,5 +158,5 @@ public class RegisterUser {
     }
 
 
-    }
+}
 
