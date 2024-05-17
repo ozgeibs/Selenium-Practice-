@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class LoginUserWithCorrectEmailAndPassword {
+public class TC_02_LoginUserWithCorrectEmailAndPassword {
     @Test
     public void test01() {
 

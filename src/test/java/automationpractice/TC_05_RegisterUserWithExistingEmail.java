@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class RegisterUserWithExistingEmail {
+public class TC_05_RegisterUserWithExistingEmail {
     @Test
     public void registerWithExistingEmail(){
         //    1. Launch browser

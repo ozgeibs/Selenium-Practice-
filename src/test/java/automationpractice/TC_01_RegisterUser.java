@@ -1,6 +1,5 @@
 package automationpractice;
 
-import com.github.javafaker.Faker;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -15,7 +14,7 @@ import java.time.Duration;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class RegisterUser {
+public class TC_01_RegisterUser {
 
 //18. Verify that 'ACCOUNT DELETED!' is visible and click 'Continue' button
 

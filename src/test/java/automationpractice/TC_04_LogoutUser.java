@@ -1,6 +1,5 @@
 package automationpractice;
 
-import com.github.javafaker.Faker;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -11,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class LogoutUser {
+public class TC_04_LogoutUser {
     WebDriver driver;
     @BeforeEach
     // Launch browser
