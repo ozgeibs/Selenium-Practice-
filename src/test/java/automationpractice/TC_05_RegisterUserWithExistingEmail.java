@@ -30,15 +30,12 @@ public class TC_05_RegisterUserWithExistingEmail {
         //6. Enter name and already registered email address
         WebElement nameBox=driver.findElement(By.xpath("//input[@type='text']"));
         nameBox.sendKeys("ozge");
-
         WebElement emailBox=driver.findElement(By.xpath("(//input[@name='email'])[2]"));
         emailBox.sendKeys("ozge@nehaber.com");
         //7. Click 'Signup' button
         WebElement signupButton=driver.findElement(By.cssSelector("button[data-qa='signup-button']"));
         signupButton.click();
-
-//8. Verify error 'Email Address already exist!' is visible
-
+       //8. Verify error 'Email Address already exist!' is visible
         WebElement alreadyExists=driver.findElement(By.xpath("//p[.='Email Address already exist!']"));
         Assertions.assertTrue(alreadyExists.isDisplayed());
 
